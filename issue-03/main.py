@@ -43,8 +43,8 @@ class TestTF(unittest.TestCase):
             ('Tuesday', [0, 1, 0]),
             ('Sunday', [1, 0, 0]),
         ]
-        x = (fit_transform(name) == exp_transformed_name)
-        self.assertTrue(x)
+
+        self.assertTrue(fit_transform(name) == exp_transformed_name)
 
     def test_counties(self):
         subject = ['Russia', 'USA', 'Italy', 'Spain']
@@ -54,8 +54,7 @@ class TestTF(unittest.TestCase):
             ('Italy', [0, 1, 0, 0]),
             ('Spain', [1, 0, 0, 0])
         ]
-        x = (fit_transform(subject) == exp_transformed_subject)
-        self.assertTrue(x)
+        self.assertTrue(fit_transform(subject) == exp_transformed_subject)
 
     def test_exception(self):
         with self.assertRaises(TypeError):
