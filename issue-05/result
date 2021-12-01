@@ -1,0 +1,22 @@
+platform darwin -- Python 3.8.2, pytest-6.2.5, py-1.11.0, pluggy-1.0.0
+rootdir: /Users/e.a.murzaeva/PycharmProjects/HW5
+plugins: cov-3.0.0
+collected 3 items
+
+issue-05/test_oha.py ...                                                                                                                                                [100%]
+
+---------- coverage: platform darwin, python 3.8.2-final-0 -----------
+Coverage HTML written to dir htmlcov
+
+
+============================================================================== 3 passed in 0.25s ============================
+
+Запуск:  python -m pytest --cov=issue-05
+
+Name                   Stmts   Miss  Cover
+------------------------------------------
+issue-05/ohe.py           20      0   100%
+issue-05/test_oha.py      24      0   100%
+------------------------------------------
+TOTAL                     44      0   100%
+

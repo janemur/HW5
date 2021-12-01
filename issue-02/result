@@ -1,0 +1,9 @@
+platform darwin -- Python 3.8.2, pytest-6.2.5, py-1.11.0, pluggy-1.0.0
+rootdir: /Users/e.a.murzaeva/PycharmProjects/HW5
+plugins: cov-3.0.0
+collected 3 items
+
+issue-02/main.py ...                                                                                                                                                    [100%]
+
+============================================================================== 3 passed in 0.14s ==============================================================================
+

@@ -36,7 +36,6 @@ class TestTF(unittest.TestCase):
         ]
         self.assertEqual(exp_transformed_cities, fit_transform(cities))
 
-
     def test_days(self):
         name = ['Monday', 'Tuesday', 'Sunday']
         exp_transformed_name = [
